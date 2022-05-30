@@ -13,7 +13,7 @@
                 position: fixed;
                 height: 100%;
                 width: 100%;
-                background: url("assets/media/bg.gif");
+               
                 object-fit: cover;
                 z-index: -1;
                 -o-filter: blur(15px);
@@ -57,9 +57,12 @@
     </head>
     <body>
         <div class="background">
-       </div>
-          <div class="center"> 
+            <video id="background-video" class="background" autoplay loop muted poster="assets/img/bg.png">
+                <source src="assets/media/bg.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="center"> 
             <img src="assets/images/CranberryCreatives_White.png" alt="Cranberry Creatives" class="logo">
-          </div>      
+        </div>      
     </body>
 </html>
