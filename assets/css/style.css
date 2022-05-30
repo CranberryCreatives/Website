@@ -7,7 +7,7 @@ html, body {
     position: fixed;
     height: 100%;
     width: 100%;
-    background: url("https://cranberrycreatives.com/assets/media/bg.gif");
+    background: url("assets/media/bg.gif");
     object-fit: cover;
     z-index: -1;
     -o-filter: blur(15px);
