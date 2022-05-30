@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <style>
+            html, body {
+                height:100%;
+                margin:0;
+                padding:0;
+            }
+            .background {
+                position: fixed;
+                height: 100%;
+                width: 100%;
+                background: url("assets/media/bg.gif");
+                object-fit: cover;
+                z-index: -1;
+                -o-filter: blur(15px);
+                filter: blur(15px);
+                transform: scale(1.2);
+                overflow: hidden;
+                background-size: cover;
+                background-position: center;
+            }
+            .logo {
+                width: 50%;
+                height: auto;
+                min-width: 80%;
+                -webkit-filter: drop-shadow(5px 5px 8px #2222223a);
+                filter: drop-shadow(5px 5px 8px #2222223a);
+            }
+            .logo-redirect {
+                width: 40%;
+                height: auto;
+                min-width: 65%;
+                -webkit-filter: drop-shadow(5px 5px 8px #2222223a);
+                filter: drop-shadow(5px 5px 8px #2222223a);
+                mix-blend-mode: screen;
+                box-shadow: 0px 0px 200px 2000px #000;
+            }
+            .center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+        </style>
+        <title>Cranberry Creatives</title>
+        <link rel="icon" type="image/jpg" href="assets/images/favicon.png">
+        <meta property="og:title" content="Cranberry Creatives" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://cranberrycreatives.com/" />
+        <meta property="og:image" content="https://cranberrycreatives.com/assets/images/favicon.png" />
+        <meta property="og:description" content="Cranberry Creatives is an American video game developer, publisher, and digital distrubtion company." />
+        <meta name="theme-color" content="#b92b2b">
+    </head>
+    <script>
+        var timer = setTimeout(function() {
+            window.location='https://cranberrycreatives.com/'
+        }, 3300);
+    </script>
+    <body>
+        <div class="background">
+            <img src="assets/media/bg.gif" class="background">
+        </div>
+        <div class="center"> 
+            <img src="assets/media/redirect.gif" class="logo-redirect">
+        </div>      
+    </body>
+</html> 
